@@ -1,31 +1,31 @@
-# LSPatch Framework
+# NPatch Framework
 
-[![Build](https://img.shields.io/github/actions/workflow/status/LSPosed/LSPatch/main.yml?branch=master&logo=github&label=Build&event=push)](https://github.com/LSPosed/LSPatch/actions/workflows/main.yml?query=event%3Apush+is%3Acompleted+branch%3Amaster) [![Crowdin](https://img.shields.io/badge/Localization-Crowdin-blueviolet?logo=Crowdin)](https://lsposed.crowdin.com/lspatch) [![Download](https://img.shields.io/github/v/release/LSPosed/LSPatch?color=orange&logoColor=orange&label=Download&logo=DocuSign)](https://github.com/LSPosed/LSPatch/releases/latest) [![Total](https://shields.io/github/downloads/LSPosed/LSPatch/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/LSPosed/LSPatch/releases)
+[![Build](https://img.shields.io/github/actions/workflow/status/HSSkyBoy/NPatch/main.yml?branch=master&logo=github&label=Build&event=push)](https://github.com/HSSkyBoy/NPatch/actions/workflows/main.yml?query=event%3Apush+is%3Acompleted+branch%3Amaster) [![Crowdin](https://img.shields.io/badge/Localization-Crowdin-blueviolet?logo=Crowdin)](https://lsposed.crowdin.com/lspatch) [![Download](https://img.shields.io/github/v/release/HSSkyBoy/NPatch?color=orange&logoColor=orange&label=Download&logo=DocuSign)](https://github.com/HSSkyBoy/NPatch/releases/latest) [![Total](https://shields.io/github/downloads/HSSkyBoy/NPatch/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/HSSkyBoy/NPatch/releases)
 
-## Introduction 
+## 应用介绍 
 
-Rootless implementation of LSPosed framework, integrating Xposed API by inserting dex and so into the target APK.
+无Root实现使用LSPosed框架，通过在目标APK中插入dex等来集成Xposed API。
 
-## Supported Versions
+## 支持版本
 
-- Min: Android 9
-- Max: In theory, same with [LSPosed](https://github.com/LSPosed/LSPosed#supported-versions)
+- 最低: Android 9
+- 最高: 从理论上来讲，和 [LSPosed](https://github.com/LSPosed/LSPosed#supported-versions)的上限是一致的
 
-## Download
+## 下载方式
 
-For stable releases, please go to [Github Releases page](https://github.com/LSPosed/LSPatch/releases)  
-For canary build, please check [Github Actions](https://github.com/LSPosed/LSPatch/actions)  
-Note: debug builds are only available in Github Actions  
+正式版本→请前往[Github releases page](https://github.com/HSSkyBoy/NPatch/releases)  
+CI构建版本→请前往[Github Actions](https://github.com/HSSkyBoy/NPatch/actions)  
+注意: debug版本只能在Github Actions中使用 
 
-## Usage
+## 使用方式
 
-+ Through jar
-1. Download `lspatch.jar`
-1. Run `java -jar lspatch.jar`
++ 通过应用程序
+1. 下载并安装`*.apk`在你的安卓(或鸿蒙)设备上
+2. 按照应用的方式使用
 
-+ Through manager
-1. Download and install `manager.apk` on an Android device
-1. Follow the instructions of the manager app
+## Star 数
+
+[![Star History Chart](https://api.star-history.com/svg?repos=HSSkyBoy/NPatch&type=Date)](https://star-history.com/#HSSkyBoy/NPatch&Date)
 
 ## Translation Contributing
 
@@ -39,4 +39,4 @@ You can contribute translation [here](https://lsposed.crowdin.com/lspatch).
 
 ## License
 
-LSPatch is licensed under the **GNU General Public License v3 (GPL-3)** (http://www.gnu.org/copyleft/gpl.html).
+NPatch is licensed under the **GNU General Public License v3 (GPL-3)** (http://www.gnu.org/copyleft/gpl.html).
