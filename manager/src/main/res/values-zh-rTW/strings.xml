@@ -42,6 +42,7 @@
     <string name="manage_no_modules">還沒有模組</string>
     <string name="manage_module_settings">模組設定</string>
     <string name="manage_app_info">程式資訊</string>
+    <string name="manage_check_manager_package_name">該程式由 %1$s 管理\n在本管理器中修改作用域 %2$s 不會生效\n重新修補以解決此問題</string>
     <!-- New Patch Screen -->
     <string name="screen_new_patch">新增打包程式</string>
     <string name="patch_select_dir_title">選擇儲存資料夾</string>
@@ -53,7 +54,7 @@
     <string name="patch_local">本機</string>
     <string name="patch_local_desc">修補未嵌入模組的應用程式。\nXpose 範圍可以動態更改，無需重新修補。\n本地修補的應用程式只能在本機裝置上運作。</string>
     <string name="patch_integrated">集成模式</string>
-    <string name="patch_integrated_desc">打包內建模組的應用程式。\n打包後的程式，可以在沒有管理器的情況下執行，但無法動態管理啟用的模組。\n以集成模式打包的應用程式，可以在沒有安裝 LSPatch Manager 的裝置上使用。</string>
+    <string name="patch_integrated_desc">打包內建模組的應用程式。\n打包後的程式，可以在沒有管理器的情況下執行，但無法動態管理啟用的模組。\n以集成模式打包的應用程式，可以在沒有安裝 NPatch Manager 的裝置上使用。</string>
     <string name="patch_embed_modules">內建模組</string>
     <string name="patch_debuggable">可偵錯</string>
     <string name="patch_inject_mt_provider">注入檔案提供器</string>
