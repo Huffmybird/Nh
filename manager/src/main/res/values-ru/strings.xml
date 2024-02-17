@@ -86,4 +86,5 @@
     <string name="settings_keystore_wrong_alias">Неправильное имя псевдонима</string>
     <string name="settings_keystore_wrong_alias_password">Неправильный пароль псевдонима</string>
     <string name="settings_detail_patch_logs">Подробные логи патчей</string>
+    <string name="settings_storage_directory">каталог хранения</string>
 </resources>
