@@ -89,5 +89,5 @@
     <string name="settings_keystore_wrong_alias">別名錯誤</string>
     <string name="settings_keystore_wrong_alias_password">別名密碼錯誤</string>
     <string name="settings_detail_patch_logs">詳細打包日誌</string>
-    <string name="settings_storage_directory">儲存資料夾</string>
+    <string name="settings_storage_directory">更改儲存資料夾</string>
 </resources>
