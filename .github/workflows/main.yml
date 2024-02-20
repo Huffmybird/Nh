@@ -86,17 +86,17 @@ jobs:
         echo 'android.native.buildOutput=verbose' >> gradle.properties
         ./gradlew buildAll
 
-    - name: Upload Debug artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: lspatch-debug
-        path: out/debug/*
-
     - name: Upload Release artifact
       uses: actions/upload-artifact@v3
       with:
-        name: lspatch-release
+        name: npatch-release
         path: out/release/*
+
+    - name: Upload Debug artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: npatch-debug
+        path: out/debug/*
 
     - name: Upload mappings
       uses: actions/upload-artifact@v3
