@@ -23,7 +23,7 @@ fun RepoScreen() {
             modifier = Modifier
                 .padding(innerPadding)
                 .fillMaxSize(),
-            text = "This page is not yet implemented",
+            text = "此页面并未制作完成",
             textAlign = TextAlign.Center
         )
     }
